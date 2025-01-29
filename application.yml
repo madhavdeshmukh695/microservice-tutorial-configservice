@@ -1,6 +1,6 @@
 Spring:
   application:
-    name: Config-Server
+    name: Config-Server-default
 server:
   port: 8082
 spring:
