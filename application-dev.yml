@@ -1,0 +1,19 @@
+Spring:
+  application:
+    name: Config-Server-dev
+server:
+  port: 8082
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/madhavdeshmukh695/microservice-tutorial-configservice.git
+          clone-on-start: true
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
