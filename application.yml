@@ -17,3 +17,4 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+myname: "Madhav Deshmukh"
